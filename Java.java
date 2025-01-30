@@ -9,9 +9,16 @@ package com.mycompany.java;
  *
  * @author IT20
  */
+import java.util.*;
 public class Java {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter the value:");
+        int a=sc.nextInt();
+        System.out.println("Enter the next value");
+        int b=sc.nextInt();
+        int c=a+b;
+        System.out.println("The Addition of two number is:"+c);
     }
 }
